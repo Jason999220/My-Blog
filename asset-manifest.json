@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/My-Blog/static/css/main.3946d48e.css",
+    "main.js": "/My-Blog/static/js/main.d488268e.js",
+    "static/media/POS.jpg": "/My-Blog/static/media/POS.fa38fba4f7310b3012f0.jpg",
+    "static/media/PeaceOfCase.jpg": "/My-Blog/static/media/PeaceOfCase.72423a253819a95f7d48.jpg",
+    "static/media/API.jpg": "/My-Blog/static/media/API.786874b7282d84783d14.jpg",
+    "index.html": "/My-Blog/index.html",
+    "main.3946d48e.css.map": "/My-Blog/static/css/main.3946d48e.css.map",
+    "main.d488268e.js.map": "/My-Blog/static/js/main.d488268e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3946d48e.css",
+    "static/js/main.d488268e.js"
+  ]
+}
