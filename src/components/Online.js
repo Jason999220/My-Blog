@@ -20,30 +20,30 @@ export default function Online() {
       >
         Online
         {checkOnline ? <CaretUpOutlined /> : <CaretDownOutlined />}
-      </div>
-      {checkOnline && (
-        <ul>
-          <li>
-            <Link
-              to="https://github.com/Jason999220?tab=repositories"
-              target="_blank"
-            >
-              <GithubOutlined />
-              GitHub
-            </Link>
-          </li>
+        {checkOnline && (
+          <ul>
+            <li>
+              <Link
+                to="https://github.com/Jason999220?tab=repositories"
+                target="_blank"
+              >
+                <GithubOutlined />
+                GitHub
+              </Link>
+            </li>
 
-          <li>
-            <Link
-              to="https://www.linkedin.com/in/jason-xu-01a597265/"
-              target="_blank"
-            >
-              <LinkedinOutlined />
-              Linkedin
-            </Link>
-          </li>
-        </ul>
-      )}
+            <li>
+              <Link
+                to="https://www.linkedin.com/in/jason-xu-01a597265/"
+                target="_blank"
+              >
+                <LinkedinOutlined />
+                Linkedin
+              </Link>
+            </li>
+          </ul>
+        )}
+      </div>
     </>
   );
 }
