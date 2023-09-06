@@ -1,0 +1,74 @@
+/* hover */
+nav > a,
+.online {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  transition: 0.5s;
+  /* 以下兩種方式雷同 */
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  /* border-bottom: 2px solid rgba(255, 255, 255, 0); */
+}
+.link-title:hover {
+  color: #2ecce0;
+  border-bottom: 2px solid #2ecce0;
+}
+
+/* get current hover a */
+nav:has(.link-title:hover) .link-title:not(:hover) {
+  color: #8f8f8f;
+}
+
+/* click */
+.link-title:focus {
+  background-color: #8f8f8f;
+  border-radius: 5px;
+  color: #000;
+}
+
+.nav-layout {
+  position: relative;
+  /* margin: 1rem auto; */
+  padding-top: 3rem;
+  display: flex;
+}
+.d-flex {
+  display: flex;
+}
+nav {
+  margin: auto;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+/* ant design */
+.ant-menu {
+  background: rgb(47, 55, 65);
+  width: 100%;
+  font-size: 1.5rem;
+  border: none !important;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+nav > svg {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+nav > ul {
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  right: 23%;
+  top: 70%;
+}
+nav > ul > li {
+  border: 2px solid #000;
+  padding: 1rem 0;
+  /* margin-top: 1rem; */
+  /* margin-bottom: 1rem; */
+}

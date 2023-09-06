@@ -1,0 +1,17 @@
+#project-skill > li {
+  list-style: disc !important;
+}
+.project-item {
+  border: 2px solid #777;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.thumbnail {
+  flex: 1 1 500px;
+}
+.project-item > aside {
+  flex: 2 1 200px;
+}
