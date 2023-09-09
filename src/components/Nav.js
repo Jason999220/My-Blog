@@ -1,14 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../css/nav.css";
-import Logo from "./Logo";
 import Online from "./Online";
 
 export default function Nav() {
   return (
     <div className="nav-layout">
       {/* Logo */}
-      {/* <Logo /> */}
       {/* nav */}
       <nav>
         <Link to="/" className="link-title">

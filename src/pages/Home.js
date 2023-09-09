@@ -1,6 +1,10 @@
 import React from "react";
-import Nav from "../components/Nav";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      自我介紹與動機】 我在2022年畢業於國立虎尾科技大學
+      光電工程系，在求學過程中有接觸過程式，但那時候只是有興趣並未開始學習，真正促使我開始學網頁設計是因為我家人喜歡做甜點，卻沒有平台可以販售就問我會不會製作網頁，從那時候開始我就立志要試著做出網站供有需要的人使用。
+    </div>
+  );
 }

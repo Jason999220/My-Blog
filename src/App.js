@@ -1,4 +1,5 @@
 import "./css/app.css";
+import "./css/ant.css";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,8 +10,8 @@ import Project from "./pages/Project";
 function App() {
   return (
     <div className="app">
-      <Nav />
       <div className="container">
+        <Nav />
         <Routes>
           <Route path={"/"} element={<Home />}></Route>
           <Route path={"/about"} element={<About />}></Route>
