@@ -12,15 +12,17 @@ function getItem(label, key, icon, children, type) {
 }
 
 const easyItems = [
-  getItem("1. Two Sum", "sub1", null, [getItem(`......`, "1")]),
-  getItem("9. Palindrime Number", "sub9", null, [getItem(`......`, "1")]),
-  getItem("13. Roman to Integer", "sub13", null, [getItem(`......`, "1")]),
-  getItem("14. Longest Common Prefix", "sub14", null, [getItem(`......`, "1")]),
+  getItem("1. Two Sum", "sub1", null, [getItem(`......`, "ans1")]),
+  getItem("9. Palindrime Number", "sub9", null, [getItem(`......`, "ans9")]),
+  getItem("13. Roman to Integer", "sub13", null, [getItem(`......`, "ans13")]),
+  getItem("14. Longest Common Prefix", "sub14", null, [
+    getItem(`......`, "ans14"),
+  ]),
 ];
 const mediumItems = [
-  getItem("2. Add Two Number", "sub2", null, [getItem(`......`, "1")]),
+  getItem("2. Add Two Number", "sub2", null, [getItem(`......`, "ans2")]),
   getItem("33. Search in Rotated Sorted Array", "sub33", null, [
-    getItem(`......`, "1"),
+    getItem(`......`, "ans33"),
   ]),
 ];
 
